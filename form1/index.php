@@ -1,7 +1,7 @@
 <?php
-	require_once("config/cnx.php");
+	require_once("config/conexion.php");
 	if(!$_SESSION[registrado]){
-		header("location: index.php");
+		header("location: login.php");
 		exit;
 	}
 ?>
